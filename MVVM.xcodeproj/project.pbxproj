@@ -16,6 +16,9 @@
 		92272BDC28EA385900A6286B /* MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92272BDB28EA385900A6286B /* MVVMUITests.swift */; };
 		92272BDE28EA385900A6286B /* MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92272BDD28EA385900A6286B /* MVVMUITestsLaunchTests.swift */; };
 		92272BF128EA3ABA00A6286B /* ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92272BF028EA3ABA00A6286B /* ViewData.swift */; };
+		92272BF328EACFD600A6286B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92272BF228EACFD600A6286B /* MainViewModel.swift */; };
+		92272BF628EAD80F00A6286B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92272BF528EAD80F00A6286B /* TestView.swift */; };
+		92272BF828EAD90100A6286B /* TestView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92272BF728EAD90100A6286B /* TestView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		92272BDB28EA385900A6286B /* MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMUITests.swift; sourceTree = "<group>"; };
 		92272BDD28EA385900A6286B /* MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		92272BF028EA3ABA00A6286B /* ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewData.swift; path = MVVM/Sources/ViewData.swift; sourceTree = SOURCE_ROOT; };
+		92272BF228EACFD600A6286B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		92272BF528EAD80F00A6286B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		92272BF728EAD90100A6286B /* TestView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				92272BBE28EA385500A6286B /* MainViewController.swift */,
+				92272BF528EAD80F00A6286B /* TestView.swift */,
+				92272BF728EAD90100A6286B /* TestView+Extension.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				92272BEF28EA3A6B00A6286B /* Model */,
+				92272BF428EACFED00A6286B /* ViewModel */,
 				92272BED28EA39F400A6286B /* View */,
 			);
 			path = MainModule;
@@ -173,6 +182,14 @@
 				92272BF028EA3ABA00A6286B /* ViewData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		92272BF428EACFED00A6286B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92272BF228EACFD600A6286B /* MainViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +322,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92272BF628EAD80F00A6286B /* TestView.swift in Sources */,
+				92272BF328EACFD600A6286B /* MainViewModel.swift in Sources */,
 				92272BBF28EA385500A6286B /* MainViewController.swift in Sources */,
 				92272BBB28EA385500A6286B /* AppDelegate.swift in Sources */,
+				92272BF828EAD90100A6286B /* TestView+Extension.swift in Sources */,
 				92272BF128EA3ABA00A6286B /* ViewData.swift in Sources */,
 				92272BBD28EA385500A6286B /* SceneDelegate.swift in Sources */,
 			);
